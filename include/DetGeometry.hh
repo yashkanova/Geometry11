@@ -27,8 +27,8 @@ private:
     G4double                    world_sizeXYZ;
     G4Box*                      solidWorld;
     G4LogicalVolume*            logicWorld;
-    G4VPhysicalVolume*          physWorld;
     virtual G4VPhysicalVolume*  Construct();
+    G4VPhysicalVolume*          physWorld;
 public:
     DetGeometry();
     virtual ~DetGeometry();
